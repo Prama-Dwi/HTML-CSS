@@ -1,0 +1,112 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+    background-color: #1d406f; /* tidal blue */
+    color: #fff; /* white text color */
+}
+
+/* Header */
+header {
+    background-color: #1d406f;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(150, 25, 25);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Bagian Kontainer */
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Bagian Tentang Saya */
+#about {
+    padding: 40px 0;
+}
+
+#about h1 {
+    font-size: 1.5em;
+}
+
+/* Bagian Hobi */
+#hobbies {
+    padding: 40px 0;
+}
+
+#hobbies h2 {
+    font-size: 1.5em;
+}
+
+/* Bagian Galeri */
+#gallery {
+    padding: 40px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 45%; /* Adjust width for two images */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Bagian Kontak */
+#contact {
+    padding: 40px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1d406f;
+    color: white;
+}
+.logo img {
+    width: 50px; /* Atur lebar logo sesuai kebutuhan */
+    height: auto; /* Mempertahankan rasio aspek logo */
+}
+.gallery img:nth-child(1), /* Target gambar pertama */
+.gallery img:nth-child(2) { /* Target gambar kedua */
+    width: 300px;  /* Atur lebar gambar sesuai kebutuhan, misalnya 300px */
+    height: auto;  /* Menjaga rasio aspek gambar */
+}
