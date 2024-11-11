@@ -95,6 +95,8 @@ nav a:hover {
     padding: 40px 0;
 }
 
+
+
 footer {
     text-align: center;
     padding: 10px;
@@ -109,4 +111,36 @@ footer {
 .gallery img:nth-child(2) { /* Target gambar kedua */
     width: 300px;  /* Atur lebar gambar sesuai kebutuhan, misalnya 300px */
     height: auto;  /* Menjaga rasio aspek gambar */
+}
+
+/* Gaya untuk Konten Fotografi dan Gitar */
+.content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content-item img {
+    width: 100%; /* Atur sesuai kebutuhan */
+    max-width: 400px; /* Ukuran maksimum untuk gambar agar responsif */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Jarak antara gambar dan teks */
+}
+
+.content-item h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #ffd700; /* Warna judul agar terlihat kontras */
+}
+
+.content-item p {
+    font-size: 1em;
+    color: #ccc;
+    margin-top: 5px;
 }
