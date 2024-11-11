@@ -144,3 +144,35 @@ footer {
     color: #ccc;
     margin-top: 5px;
 }
+.content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center; /* Ubah ini jika Anda ingin teks di tengah, jika tidak, bisa dihapus */
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content-item img {
+    width: 100%; /* Atur sesuai kebutuhan */
+    max-width: 400px; /* Ukuran maksimum untuk gambar agar responsif */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Jarak antara gambar dan teks */
+}
+
+.content-item h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #ffd700; /* Warna judul agar terlihat kontras */
+}
+
+.content-item p {
+    font-size: 1em;
+    color: #ccc;
+    margin-top: 5px;
+    text-align: justify; /* Tambahkan ini untuk justify text */
+    max-width: 400px; /* Sesuaikan dengan lebar gambar */
+}
